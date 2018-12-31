@@ -158,7 +158,7 @@
 			</div>
 			<div class="form-group">
 				<label>Kategori:</label>
-            <label><input type="radio" name="kategori" value="Kimia" checked /> Kimia</label>
+            <label><input type="radio" name="kategori" value="Kimia" /> Kimia</label>
             <label><input type="radio" name="kategori" value="Biologi" /> Biologi</label>
         	<label><input type="radio" name="kategori" value="Fisika" /> Fisika</label>
         	</div>

@@ -160,9 +160,15 @@
 			</div>
 			<div class="form-group">
 				<label>Kategori:</label>
-            <label><input type="radio" name="kategori" value="Kimia" checked /> Kimia</label>
-            <label><input type="radio" name="kategori" value="Biologi" /> Biologi</label>
-        	<label><input type="radio" name="kategori" value="Fisika" /> Fisika</label>
+            <label><input type="radio" name="kategori" value="Kimia" <?php if (  $kategori  == 'Kimia') {
+        	echo "checked";
+        }    ?>  /> Kimia</label>
+            <label><input type="radio" name="kategori" value="Biologi" <?php if ( $kategori  == 'Biologi') {
+        	echo "checked";
+        }    ?>  /> Biologi</label>
+        	<label><input type="radio" name="kategori" value="Fisika" <?php if (  $kategori  == 'Fisika') {
+        	echo "checked";
+        }    ?> /> Fisika</label>
         	</div>
 			<div class="form-group">
 			<textarea   name="deskripsi_artikel" id="mytextarea"  class="form-control" rows="5" placeholder="Deskripsi Artikel" ><?php echo $deskripsi_artikel; ?></textarea>
